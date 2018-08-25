@@ -1,0 +1,66 @@
+.navbar, 
+.navbar-light {
+ background-color: white;
+ border-bottom: #ccc;
+ border-bottom-style: solid;
+ padding: 0;
+ border-width: medium;
+ margin-bottom: 50px;
+}
+
+#logo {
+    width: 250px;
+    background: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    color: #fff;
+    margin-left: 100px;
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+}
+
+#links {
+    margin-right: 100px;
+}
+
+a {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #777;
+    border-left: #ccc;
+    border-left-style: solid;
+    border-width: thin;
+}
+html,
+body {
+    background: url('../images/gravel.png');
+    height: 100%;
+}
+
+#main-container {
+    min-height: 100%;
+}
+
+.jumbotron {
+    background: white;
+}
+
+.display-6 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+}
+
+
+#paragraph {
+    margin-top: 15px;
+}
+
+#site-footer {
+    position: relative;
+    background: #666;
+    color: #777777;
+    border-top: 8px solid #4aaaa5;
+    font-size: 12px;
+    text-align: center;
+    padding: 30px 0;
+    bottom: 0;
+}
